@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(imagens/fundo-madeira.jpg);
+}
+
+div.container {
+    position: relative;
+    height: 98vh;
+}
+
+img {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50px, -50px);
+}

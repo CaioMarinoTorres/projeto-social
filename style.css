@@ -34,5 +34,19 @@ iframe#celular {
     transform: translate(-50%, -50%);
     height: 460px;
     width: 270px;
-    
+}
+
+section#menu {
+    position: relative
+}
+
+img.icons {
+    display: block;
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+a.links {
+    width: 70px;
 }

@@ -39,11 +39,11 @@ section#telefone {
 
 iframe#celular {
     position: absolute;
-    top: 51%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 475px;
-    width: 265px;
+    top: 79px;
+    left: 22px;
+    transform: translate(0px, 0px);
+    height: 472px;
+    width: 267px;
 }
 
 section#menu {

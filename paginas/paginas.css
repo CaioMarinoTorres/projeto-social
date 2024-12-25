@@ -12,5 +12,33 @@
 
 img {
     width: 100vw;
-    height: 100vh;
+}
+
+nav {
+    position: relative;
+    height: 50px;
+    background-color: darkred;
+    margin-top: -4px;
+}
+
+a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav:hover {
+    background-color: red;
+    transition: background-color .5s;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 1.2em;
+    font-weight: bolder;
+    transition: font-size .5s, font-weigth .5s;
 }
